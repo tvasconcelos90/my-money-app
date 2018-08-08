@@ -6,8 +6,7 @@ import { getList } from './billingCycleActions'
 class BillingCycleList extends Component {
 
     componentWillMount() {
-        this.props.getList()
-        
+        this.props.getList()        
     }
 
     renderRows() {
